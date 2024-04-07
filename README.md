@@ -1,3 +1,5 @@
+You can find the task and methods which were created to cover the task below.
+
 1. Check that API return valid responses: values are not empty, values have valid type.
 - testGeneralJokeById_Validation()
 - testRandomJoke_Validation()
