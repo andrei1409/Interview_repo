@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "type",
+    "setup",
+    "punchline",
+    "id"
+  ],
+  "properties": {
+    "type": {
+      "type": "string",
+      "minLength": 1,
+      "default": "",
+      "title": "The type Schema",
+      "examples": [
+        "programming"
+      ]
+    },
+    "setup": {
+      "type": "string",
+      "minLength": 1,
+      "default": "",
+      "title": "The setup Schema",
+      "examples": [
+        "What’s the object-oriented way to become wealthy?"
+      ]
+    },
+    "punchline": {
+      "type": "string",
+      "minLength": 1,
+      "default": "",
+      "title": "The punchline Schema",
+      "examples": [
+        "Inheritance."
+      ]
+    },
+    "id": {
+      "type": "integer",
+      "default": 0,
+      "title": "The id Schema",
+      "examples": [
+        378
+      ]
+    }
+  },
+  "examples": [
+    {
+      "type": "programming",
+      "setup": "What’s the object-oriented way to become wealthy?",
+      "punchline": "Inheritance.",
+      "id": 378
+    }
+  ]
+}
